@@ -1,0 +1,44 @@
+{
+  "name": "rtint",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pmotion",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "cli-color": "^2.0.0",
+    "dotenv": "^8.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-include": "^2.3.1",
+    "gulp-msg": "0.0.4",
+    "gulp-pagebuilder": "^0.1.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.2.1",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svgmin": "^1.2.4",
+    "js-yaml": "^3.10.0"
+  },
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.4.1",
+    "lightgallery": "^2.1.0",
+    "swiper": "^5.3.6"
+  }
+}

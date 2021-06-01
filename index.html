@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temlpate</title>
+    <link rel="stylesheet" href="./build/css/styles.css"/>
+    <script src="./build/js/vendor.js"></script>
+    <script src="./build/js/app.js"></script>
+    <style>
+     #gallery-videos-demo {
+         display: flex;
+         justify-content: center;
+     }
+     #gallery-videos-demo a {
+         display: inline-block;
+         width: 300px;
+         margin:0 10px;
+         cursor: pointer;
+     }
+     #gallery-videos-demo a img {
+         width: 100%;
+     }
+    </style>
+</head>
+<body>
+
+<section class="section">
+    <div id="gallery-videos-demo">
+        <!-- YouTube Video --->
+        <a
+                data-lg-size="1280-720"
+                data-src="https://youtu.be/sjzbwIBh4g0"
+                class="announce video-gallery__item"
+                data-sub-html="Text description 1"
+                rel="nofollow noopener norefferer"
+                data-slide-name="image-1"
+        >
+            <span class="image">
+                <img src="https://picsum.photos/800/600" alt="">
+            </span>
+            <span class="description pos-a text-center">Image 1</span>
+        </a>
+        <a data-src="https://picsum.photos/800/600" class="announce video-gallery__item" data-sub-html="Text description 2" rel="nofollow noopener norefferer" data-slide-name="picture-2">
+            <span class="image">
+                <img src="https://picsum.photos/800/600" alt="">
+            </span>
+            <span class="description pos-a text-center">Image 2</span>
+        </a>
+        <a data-src="https://picsum.photos/800/600" class="announce video-gallery__item" data-sub-html="Text description 3" rel="nofollow noopener norefferer" data-slide-name="thumbs-3">
+            <span class="image">
+                <img src="https://picsum.photos/800/600" alt="">
+            </span>
+            <span class="description pos-a text-center">Image 3</span>
+        </a>
+    </div>
+
+</section>
+
+<script>
+    $(document).ready(function(){
+        DefaultPage.init();
+    })
+</script>
+</body>
+</html>

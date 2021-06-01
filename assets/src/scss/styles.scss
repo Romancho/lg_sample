@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+@import "vars/vars";
+
+@import "partitions/header";
+@import "content/content";
+@import "../node_modules/lightgallery/scss/lightgallery-bundle";

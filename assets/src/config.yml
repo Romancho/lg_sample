@@ -1,0 +1,8 @@
+# Gulp will reference these paths when it copies files
+PATH:
+  # Path to source folder
+  src: "."
+  # Path to temp folder
+  tmp: "tmp"
+  # Path to web folder
+  web: "../../build"

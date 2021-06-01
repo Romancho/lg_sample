@@ -1,0 +1,11 @@
+.idea
+vendor
+node_modules
+.env
+*.log
+*.sql
+*.txt
+*.exe
+cache/
+build
+

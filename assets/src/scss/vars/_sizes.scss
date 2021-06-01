@@ -1,0 +1,54 @@
+// https://github.com/infinum/media-blender
+$media-breakpoints: (
+        mobile: 0 414,
+        tablet: 415 768,
+        ipad: 769 1190,
+        desktop: 1191
+);
+// DEFAULTS
+$breakpoints-width: (
+        md: 1190,
+        sm: 768,
+        xs: 414
+);
+
+// GRIDS
+$container-width: 660px;                                       // DESKTOP
+$ipad-container-width: 660px;                                   // IPAD
+$tablet-container-width: 660px;                                 // TABLET
+$mobile-container-width: 100%;                                  // MOBILE
+
+$md-vw: 1024;
+$sm-vw: 768;
+$xs-vw: 375;
+
+// GUTTINGS
+$lg-gutter: 40px;
+$lg-padding: 30px;
+
+$md-gutter: 40px;
+$md-padding: 30px;
+
+$sm-gutter: 40px;
+$sm-padding: 30px;
+
+$xs-gutter: get-vw($xs-vw, 30px);
+$xs-padding: get-vw($xs-vw, 30px);
+
+$text-padding: 20px;
+
+$default-font-size: 16px;
+$default-font-height: 1.5;
+$default-font-weight: 400;
+
+$default-font-size__tablet: get-vw($sm-vw, 16px);
+$default-font-height__tablet: 1.3;
+$default-font-weight__tablet: 400;
+
+$default-font-size__mobile: get-vw($xs-vw, 13px);
+$default-font-height__mobile: 1.3;
+$default-font-weight__mobile: 400;
+
+$default-title-size: 22px;
+$default-title-height: 1.1;
+$default-title-weight: 400;

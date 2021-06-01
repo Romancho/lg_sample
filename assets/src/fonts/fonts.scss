@@ -1,0 +1,20 @@
+@import "try-fonts";
+
+$font-default: 'RobotoCond', sans-serif; // Обычный текст / Статьи / Списки
+$font-title: 'RobotoCond', sans-serif; // Различные заголовки
+
+
+@mixin font-default($sizeValue: $default-font-size, $line: $default-font-height, $font-weight: $default-font-weight) {
+  font: $font-weight #{$sizeValue}/#{$line} $font-default;
+}
+
+@mixin font-title($sizeValue: $default-title-size, $line: $default-title-height, $font-weight: $default-title-weight) {
+  font: $font-weight #{$sizeValue}/#{$line} $font-title;
+}
+@mixin font-beauty-cond($sizeValue: $default-title-size, $line: $default-title-height, $font-weight: $default-title-weight) {
+  font: $font-weight #{$sizeValue}/#{$line} $font-title;
+}
+
+@mixin font-beauty($sizeValue: $default-title-size, $line: $default-title-height, $font-weight: $default-title-weight) {
+  font: $font-weight #{$sizeValue}/#{$line} $font-title;
+}

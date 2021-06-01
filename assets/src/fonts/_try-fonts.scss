@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'RobotoCond';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: local('RobotoCond'), local('RobotoCond'),
+  url('../fonts/RobotoCondensed/robotocondensed-bold.woff') format('woff'),
+  url('../fonts/RobotoCondensed/robotocondensed-bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'RobotoCond';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local('RobotoCond'), local('RobotoCond'),
+  url('../fonts/RobotoCondensed/robotocondensed-regular.woff') format('woff'),
+  url('../fonts/RobotoCondensed/robotocondensed-regular.woff2') format('woff2');
+}
