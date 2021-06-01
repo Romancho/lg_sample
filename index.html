@@ -6,7 +6,6 @@
     <title>Temlpate</title>
     <link rel="stylesheet" href="./build/css/styles.css"/>
     <script src="./build/js/vendor.js"></script>
-    <script src="./build/js/app.js"></script>
     <style>
      #gallery-videos-demo {
          display: flex;
@@ -58,8 +57,8 @@
 </section>
 
 <script>
-    $(document).ready(function(){
-        DefaultPage.init();
+    document.addEventListener("DOMContentLoaded", function(event) {
+        lightGallery(document.getElementById('gallery-videos-demo'));
     })
 </script>
 </body>

@@ -1,4 +1,3 @@
-//=require ../node_modules/jquery/dist/jquery.min.js
 //=require ../node_modules/lightgallery/lightgallery.umd.js
 //=require ../node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js
 //=require ../node_modules/lightgallery/plugins/video/lg-video.umd.js
